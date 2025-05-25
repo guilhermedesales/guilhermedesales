@@ -74,4 +74,5 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guilhermedesales/guilhermedesales/output/github-snake.svg" />
   <img src="https://raw.githubusercontent.com/guilhermedesales/guilhermedesales/output/snake.svg" alt="Snake animation" />
 </picture>
+
 ###
