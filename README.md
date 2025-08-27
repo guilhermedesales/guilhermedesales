@@ -12,7 +12,7 @@
 ### 🚀 Projetos em Destaque
 
 | Projeto | Tecnologias | Descrição | Status |
-|---------|------------|-----------|
+|---------|------------|-----------|-----------|
 | [Janus](https://github.com/guilhermedesales/Janus) | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | Gerenciador de Tarefas com autenticação JWT | Em Andamento |
 
 <br>
