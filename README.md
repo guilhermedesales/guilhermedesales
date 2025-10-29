@@ -1,5 +1,5 @@
 <h1 align="center">Guilherme Teixeira</h1>
-<h2 align="center">Java Developer | Backend Engineer</h2>
+<h2 align="center">Java Backend</h2>
 
 <h3 align="center">
 🎓 Computer Science student | 💻 Backend Developer focused on Java, Spring & SQL | 🎨 Former Designer turned Developer
