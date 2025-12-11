@@ -13,7 +13,7 @@
 
 | Projeto | Tecnologias | Descrição | Colaboradores | Status |
 |--------|-------------|-----------|---------------|--------|
-| [NoPonto](https://github.com/UVAEstudantes/noponto-frontend) | ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white) ![.NET 9](https://img.shields.io/badge/.NET%209-512BD4?style=flat&logo=.net&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | Sistema de transporte público do Rio com informações em tempo real (linhas, paradas, rotas e pontos de interesse) | [Guilherme](https://github.com/guilhermedesales) · [Daniel](https://github.com/danielnsrj) · [Davi](https://github.com/Davisqxf12) · [Diego](https://github.com/diegotassodev) | Em andamento |
+| [NoPonto](https://github.com/UVAEstudantes/noponto-frontend) | ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white) ![.NET 9](https://img.shields.io/badge/.NET%209-512BD4?style=flat&logo=.net&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | Sistema de transporte público do Rio com informações em tempo real (linhas, paradas, rotas e pontos de interesse) | [Guilherme](https://github.com/guilhermedesales) · [Daniel](https://github.com/danielnsrj) · [Davi](https://github.com/Davisqxf12) | Em andamento |
 
 
 
