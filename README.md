@@ -14,6 +14,8 @@
 | Projeto | Tecnologias | Descrição | Colaboradores | Status |
 |--------|-------------|-----------|---------------|--------|
 | [NoPonto](https://github.com/UVAEstudantes/noponto-frontend) | ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=white) ![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white) ![.NET 9](https://img.shields.io/badge/.NET%209-512BD4?style=flat&logo=.net&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | Sistema de transporte público do Rio com informações em tempo real (linhas, paradas, rotas e pontos de interesse) | [Guilherme](https://github.com/guilhermedesales) · [Daniel](https://github.com/danielnsrj) · [Davi](https://github.com/Davisqxf12) | Em andamento |
+| [Janus (Front)](https://github.com/guilhermedesales/janus-front) <br/> [Janus (Back)](https://github.com/guilhermedesales/janus-back) | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) | Sistema de gestão de tarefas e produtividade com autenticação, categorias, status e dashboard analítico | Solo | Em andamento |
+
 
 
 
