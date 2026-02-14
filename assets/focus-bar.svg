@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 50">
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#6366f1" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="80%" stop-color="#6366f1" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="680" height="50" fill="#0d1117" rx="6" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Tags -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze" begin="0.2s"/>
+
+    <text x="340" y="20" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8b949e" letter-spacing="3" font-weight="500">
+      APIs REST  &#183;  Arquitetura em Camadas  &#183;  Autentica&#231;&#227;o JWT  &#183;  Clean Code  &#183;  SQL
+    </text>
+
+    <!-- Accent dots -->
+    <circle cx="92" cy="17" r="1.2" fill="#6366f1" opacity="0.5"/>
+    <circle cx="230" cy="17" r="1.2" fill="#8b5cf6" opacity="0.5"/>
+    <circle cx="400" cy="17" r="1.2" fill="#6366f1" opacity="0.5"/>
+    <circle cx="516" cy="17" r="1.2" fill="#8b5cf6" opacity="0.5"/>
+  </g>
+
+  <!-- Animated underline -->
+  <line x1="100" y1="30" x2="580" y2="30" stroke="url(#fg)" stroke-width="0.6" opacity="0">
+    <animate attributeName="opacity" values="0;0.5" dur="0.6s" fill="freeze" begin="0.5s"/>
+  </line>
+
+  <!-- Moving glow dot on underline -->
+  <circle r="1.5" fill="#a78bfa" filter="url(#g)" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0.6;0" keyTimes="0;0.1;0.9;1" dur="3.5s" repeatCount="indefinite" begin="0.8s"/>
+    <animateMotion dur="3.5s" repeatCount="indefinite" begin="0.8s" path="M100,30 L580,30"/>
+  </circle>
+
+  <!-- Subtitle -->
+  <text x="340" y="44" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#8b949e" opacity="0" letter-spacing="1">
+    Foco em backend. Boas pr&#225;ticas em evolu&#231;&#227;o constante.
+    <animate attributeName="opacity" values="0;0.5" dur="0.5s" fill="freeze" begin="0.7s"/>
+  </text>
+</svg>

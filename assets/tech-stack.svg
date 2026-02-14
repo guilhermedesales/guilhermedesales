@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260">
+  <defs>
+    <linearGradient id="card-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="680" height="260" fill="#0d1117" rx="8" stroke="#21262d" stroke-width="1"/>
+
+  <!-- ── ROW 1 ──────────────────────────────────────────────── -->
+
+  <!-- Java -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.1s"/>
+    <rect x="24" y="24" width="148" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- Java icon: coffee cup with 3 steam lines, handle, saucer -->
+    <g transform="translate(38, 34) scale(0.55)">
+      <!-- Steam lines -->
+      <path d="M10 2C10 2 12 5 9.5 7.5C7 10 10 13 10 13" stroke="#ED8B00" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      <path d="M15 1C15 1 17 4 14.5 6.5C12 9 15 12 15 12" stroke="#ED8B00" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      <path d="M20 2C20 2 22 5 19.5 7.5C17 10 20 13 20 13" stroke="#ED8B00" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      <!-- Cup body -->
+      <rect x="5" y="15" width="20" height="13" rx="2" fill="none" stroke="#ED8B00" stroke-width="1.8"/>
+      <!-- Handle -->
+      <path d="M25 18C28 18 30 20 30 22C30 24 28 26 25 26" stroke="#ED8B00" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <!-- Saucer -->
+      <ellipse cx="15" cy="30" rx="14" ry="3" fill="none" stroke="#ED8B00" stroke-width="1.5"/>
+    </g>
+    <text x="72" y="53" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">Java</text>
+  </g>
+
+  <!-- Spring Boot -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.2s"/>
+    <rect x="184" y="24" width="148" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- Spring icon: leaf with vein -->
+    <g transform="translate(198, 34) scale(0.55)">
+      <!-- Leaf outline -->
+      <path d="M4 28C4 10 18 2 30 2C30 16 22 30 8 30C4 30 4 28 4 28Z" fill="none" stroke="#6DB33F" stroke-width="2" stroke-linejoin="round"/>
+      <!-- Central vein curving -->
+      <path d="M28 4C22 10 16 18 8 24" stroke="#6DB33F" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <!-- Side veins -->
+      <path d="M20 10C17 14 12 17 8 18" stroke="#6DB33F" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.6"/>
+      <path d="M24 8C20 12 14 14 11 15" stroke="#6DB33F" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.5"/>
+    </g>
+    <text x="232" y="53" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">Spring Boot</text>
+  </g>
+
+  <!-- .NET -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.3s"/>
+    <rect x="344" y="24" width="148" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- .NET icon: proper .NET brand mark -->
+    <g transform="translate(358, 34) scale(0.6)">
+      <!-- Dot -->
+      <circle cx="3" cy="28" r="2.5" fill="#512BD4"/>
+      <!-- N shape -->
+      <line x1="10" y1="28" x2="10" y2="4" stroke="#512BD4" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="10" y1="4" x2="24" y2="28" stroke="#512BD4" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="24" y1="28" x2="24" y2="4" stroke="#512BD4" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Upper dot -->
+      <circle cx="28" cy="4" r="2" fill="#512BD4"/>
+    </g>
+    <text x="392" y="53" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">.NET</text>
+  </g>
+
+  <!-- PostgreSQL -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.4s"/>
+    <rect x="504" y="24" width="152" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- PostgreSQL icon: database cylinder -->
+    <g transform="translate(518, 32) scale(0.6)">
+      <ellipse cx="15" cy="8" rx="12" ry="5" fill="none" stroke="#336791" stroke-width="2"/>
+      <line x1="3" y1="8" x2="3" y2="28" stroke="#336791" stroke-width="2"/>
+      <line x1="27" y1="8" x2="27" y2="28" stroke="#336791" stroke-width="2"/>
+      <ellipse cx="15" cy="28" rx="12" ry="5" fill="none" stroke="#336791" stroke-width="2"/>
+      <ellipse cx="15" cy="18" rx="12" ry="5" fill="none" stroke="#336791" stroke-width="1.2" opacity="0.4"/>
+    </g>
+    <text x="552" y="53" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">PostgreSQL</text>
+  </g>
+
+  <!-- ── ROW 2 ──────────────────────────────────────────────── -->
+
+  <!-- Docker -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.5s"/>
+    <rect x="24" y="84" width="148" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- Docker icon: whale body with containers on top -->
+    <g transform="translate(36, 92) scale(0.6)">
+      <!-- Containers on whale's back -->
+      <rect x="6" y="8" width="5" height="4" rx="0.5" fill="none" stroke="#2496ED" stroke-width="1.4"/>
+      <rect x="13" y="8" width="5" height="4" rx="0.5" fill="none" stroke="#2496ED" stroke-width="1.4"/>
+      <rect x="20" y="8" width="5" height="4" rx="0.5" fill="none" stroke="#2496ED" stroke-width="1.4"/>
+      <rect x="13" y="2" width="5" height="4" rx="0.5" fill="none" stroke="#2496ED" stroke-width="1.4"/>
+      <rect x="20" y="2" width="5" height="4" rx="0.5" fill="none" stroke="#2496ED" stroke-width="1.4"/>
+      <rect x="27" y="8" width="5" height="4" rx="0.5" fill="none" stroke="#2496ED" stroke-width="1.4"/>
+      <!-- Whale body -->
+      <path d="M2 14C2 14 2 12 6 12L34 12C36 12 36 14 36 16C36 22 30 26 20 26C10 26 4 22 2 18Z" fill="none" stroke="#2496ED" stroke-width="2" stroke-linejoin="round"/>
+      <!-- Tail -->
+      <path d="M2 14C-1 10 -2 6 1 4C3 6 3 10 2 14" stroke="#2496ED" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <!-- Eye -->
+      <circle cx="30" cy="17" r="1.2" fill="#2496ED"/>
+      <!-- Water spout -->
+      <path d="M33 10C34 8 36 7 35 5" stroke="#2496ED" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.5"/>
+    </g>
+    <text x="72" y="113" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">Docker</text>
+  </g>
+
+  <!-- MySQL -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.6s"/>
+    <rect x="184" y="84" width="148" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- MySQL icon: database cylinder -->
+    <g transform="translate(198, 92) scale(0.6)">
+      <ellipse cx="15" cy="8" rx="12" ry="5" fill="none" stroke="#4479A1" stroke-width="2"/>
+      <line x1="3" y1="8" x2="3" y2="28" stroke="#4479A1" stroke-width="2"/>
+      <line x1="27" y1="8" x2="27" y2="28" stroke="#4479A1" stroke-width="2"/>
+      <ellipse cx="15" cy="28" rx="12" ry="5" fill="none" stroke="#4479A1" stroke-width="2"/>
+      <ellipse cx="15" cy="18" rx="12" ry="5" fill="none" stroke="#4479A1" stroke-width="1.2" opacity="0.4"/>
+    </g>
+    <text x="232" y="113" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">MySQL</text>
+  </g>
+
+  <!-- Git -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.7s"/>
+    <rect x="344" y="84" width="148" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- Git icon: branch diagram -->
+    <g transform="translate(358, 94) scale(0.6)">
+      <circle cx="10" cy="6" r="3" fill="none" stroke="#F05032" stroke-width="2"/>
+      <circle cx="10" cy="28" r="3" fill="none" stroke="#F05032" stroke-width="2"/>
+      <circle cx="24" cy="16" r="3" fill="none" stroke="#F05032" stroke-width="2"/>
+      <line x1="10" y1="9" x2="10" y2="25" stroke="#F05032" stroke-width="2"/>
+      <path d="M10 14C10 14 12 16 21 16" stroke="#F05032" stroke-width="2" fill="none"/>
+    </g>
+    <text x="392" y="113" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">Git</text>
+  </g>
+
+  <!-- REST APIs -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.8s"/>
+    <rect x="504" y="84" width="152" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- REST icon: request/response arrows -->
+    <g transform="translate(518, 94) scale(0.6)">
+      <path d="M4 10L22 10" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L22 10L18 14" stroke="#8b5cf6" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M22 24L4 24" stroke="#6366f1" stroke-width="2" stroke-linecap="round"/>
+      <path d="M8 20L4 24L8 28" stroke="#6366f1" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="552" y="113" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">REST APIs</text>
+  </g>
+
+  <!-- ── ROW 3 ──────────────────────────────────────────────── -->
+
+  <!-- Postman -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.9s"/>
+    <rect x="24" y="144" width="148" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- Postman icon: rocket simplified -->
+    <g transform="translate(38, 152) scale(0.55)">
+      <circle cx="15" cy="15" r="12" fill="none" stroke="#FF6C37" stroke-width="2"/>
+      <path d="M10 20L20 10" stroke="#FF6C37" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M12 10L20 10L20 18" stroke="#FF6C37" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="72" y="173" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">Postman</text>
+  </g>
+
+  <!-- JWT / Auth -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.0s"/>
+    <rect x="184" y="144" width="148" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- Auth icon: lock -->
+    <g transform="translate(198, 152) scale(0.6)">
+      <rect x="5" y="14" width="20" height="16" rx="3" fill="none" stroke="#f0b429" stroke-width="2"/>
+      <path d="M9 14V10C9 6 12 4 15 4C18 4 21 6 21 10V14" fill="none" stroke="#f0b429" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="15" cy="22" r="2" fill="#f0b429"/>
+      <line x1="15" y1="24" x2="15" y2="27" stroke="#f0b429" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <text x="232" y="173" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">JWT / Auth</text>
+  </g>
+
+  <!-- IntelliJ -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.1s"/>
+    <rect x="344" y="144" width="148" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- IntelliJ icon: IJ letters -->
+    <g transform="translate(358, 152) scale(0.55)">
+      <rect x="2" y="2" width="28" height="28" rx="4" fill="none" stroke="#FE315D" stroke-width="2"/>
+      <text x="16" y="23" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#FE315D" font-weight="700">IJ</text>
+    </g>
+    <text x="392" y="173" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">IntelliJ</text>
+  </g>
+
+  <!-- Linux -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="1.2s"/>
+    <rect x="504" y="144" width="152" height="48" rx="8" fill="#161b22" stroke="url(#card-glow)" stroke-width="0.6"/>
+    <!-- Linux icon: terminal prompt -->
+    <g transform="translate(518, 152) scale(0.6)">
+      <rect x="2" y="2" width="28" height="28" rx="4" fill="none" stroke="#FCC624" stroke-width="1.8"/>
+      <path d="M8 12L14 17L8 22" stroke="#FCC624" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="16" y1="22" x2="24" y2="22" stroke="#FCC624" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <text x="552" y="173" font-family="'Segoe UI', sans-serif" font-size="14" fill="#c9d1d9" font-weight="500">Linux</text>
+  </g>
+
+  <!-- ── Bottom animated pulse line ─────────────────────────── -->
+  <line x1="24" y1="218" x2="656" y2="218" stroke="#6366f1" stroke-width="0.5" opacity="0.12">
+    <animate attributeName="opacity" values="0.08;0.2;0.08" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Floating particles -->
+  <circle cx="60" cy="238" r="0.7" fill="#6366f1">
+    <animate attributeName="opacity" values="0;0.4;0" dur="5s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle cx="340" cy="235" r="0.5" fill="#8b5cf6">
+    <animate attributeName="opacity" values="0;0.3;0" dur="4s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle cx="620" cy="240" r="0.6" fill="#6366f1">
+    <animate attributeName="opacity" values="0;0.4;0" dur="5.5s" repeatCount="indefinite" begin="2.5s"/>
+  </circle>
+</svg>

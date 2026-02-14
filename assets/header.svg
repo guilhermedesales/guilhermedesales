@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220">
+  <defs>
+    <!-- Animated gradient background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#111820;#0d1117" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#161b22">
+        <animate attributeName="stop-color" values="#161b22;#1c2333;#161b22" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#111820;#0d1117" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Dot grid pattern -->
+    <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse">
+      <circle cx="12.5" cy="12.5" r="0.5" fill="#30363d" opacity="0.5"/>
+    </pattern>
+
+    <!-- Accent line gradient -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="85%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow filter for the moving dot -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="220" fill="url(#bg)" rx="6"/>
+
+  <!-- Grid overlay -->
+  <rect width="850" height="220" fill="url(#dots)" rx="6"/>
+
+  <!-- Corner brackets -->
+  <g opacity="0.2">
+    <path d="M 16,16 L 50,16" stroke="#6366f1" stroke-width="1"/>
+    <path d="M 16,16 L 16,50" stroke="#6366f1" stroke-width="1"/>
+    <path d="M 834,16 L 800,16" stroke="#6366f1" stroke-width="1"/>
+    <path d="M 834,16 L 834,50" stroke="#6366f1" stroke-width="1"/>
+    <path d="M 16,204 L 50,204" stroke="#6366f1" stroke-width="1"/>
+    <path d="M 16,204 L 16,170" stroke="#6366f1" stroke-width="1"/>
+    <path d="M 834,204 L 800,204" stroke="#6366f1" stroke-width="1"/>
+    <path d="M 834,204 L 834,170" stroke="#6366f1" stroke-width="1"/>
+  </g>
+
+  <!-- Name -->
+  <text x="425" y="88" text-anchor="middle" fill="#e6edf3"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38" font-weight="600" letter-spacing="1">
+    Guilherme Teixeira
+  </text>
+
+  <!-- Subtitle -->
+  <text x="425" y="122" text-anchor="middle" fill="#8b949e"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="15" font-weight="400" letter-spacing="4">
+    BACKEND DEVELOPER  &#183;  SPRING &amp; .NET
+  </text>
+
+  <!-- Accent line with pulse -->
+  <line x1="260" y1="148" x2="590" y2="148" stroke="url(#accent)" stroke-width="1">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Moving glow dot along accent line -->
+  <circle r="2" fill="#a78bfa" filter="url(#glow)">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M260,148 L590,148"/>
+    <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.9;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Floating particles -->
+  <circle cx="120" cy="42" r="1" fill="#6366f1">
+    <animate attributeName="opacity" values="0;0.5;0" dur="5s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle cx="730" cy="55" r="0.8" fill="#8b5cf6">
+    <animate attributeName="opacity" values="0;0.4;0" dur="4s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle cx="75" cy="175" r="1.1" fill="#6366f1">
+    <animate attributeName="opacity" values="0;0.3;0" dur="6s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <circle cx="775" cy="170" r="0.7" fill="#8b5cf6">
+    <animate attributeName="opacity" values="0;0.5;0" dur="4.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="210" cy="185" r="0.6" fill="#6366f1">
+    <animate attributeName="opacity" values="0;0.3;0" dur="5.5s" repeatCount="indefinite" begin="3s"/>
+  </circle>
+  <circle cx="640" cy="38" r="0.9" fill="#8b5cf6">
+    <animate attributeName="opacity" values="0;0.4;0" dur="6s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+</svg>
