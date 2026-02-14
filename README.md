@@ -42,7 +42,7 @@
 <!-- ── 2. SOBRE MIM ──────────────────────────────────────────────────────── -->
 
 <div align="center">
-  <samp>Desenvolvedor backend em formação — construindo APIs com intenção.</samp>
+  <samp>Backend com foco em Spring, .NET e construção de APIs bem estruturadas.</samp>
 </div>
 
 <br/>
