@@ -193,7 +193,7 @@ Não me considero especialista. Me considero alguém que estuda com consistênci
 <br/>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/guilherme-teixeira-sales/">
+  <a href="https://www.linkedin.com/in/guilhermesaales/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   &nbsp;
