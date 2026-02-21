@@ -113,28 +113,39 @@ Não me considero especialista. Me considero alguém que estuda com consistênci
 
 <h3 align="center">Métricas</h3>
 
+<table align="center" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <tr>
+    <td style="border:none;">
+      <img 
+        src="https://github-readme-stats-sigma-five.vercel.app/api?username=guilhermedesales&show_icons=true&hide_border=true&border_radius=0&bg_color=00000000&title_color=8b5cf6&icon_color=6366f1&text_color=c9d1d9&ring_color=8b5cf6&include_all_commits=true&locale=pt-br&rank_icon=github" 
+        height="170"
+      />
+    </td>
+    <td style="border:none; padding-left:14px;">
+      <img 
+        src="https://streak-stats.demolab.com?user=guilhermedesales&hide_border=true&background=00000000&ring=8b5cf6&fire=8b5cf6&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e&stroke=00000000&currStreakNum=e6edf3&sideNums=e6edf3&locale=pt_BR" 
+        height="170"
+      />
+    </td>
+  </tr>
+</table>
 <br/>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=guilhermedesales&show_icons=true&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=6366f1&text_color=c9d1d9&ring_color=8b5cf6&include_all_commits=true&locale=pt-br&cache_seconds=86400&rank_icon=github" height="170" alt="Estatísticas do GitHub"/>
-  &nbsp;&nbsp;
-  <img src="https://streak-stats.demolab.com?user=guilhermedesales&hide_border=true&background=0d1117&ring=8b5cf6&fire=8b5cf6&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e&stroke=21262d&currStreakNum=e6edf3&sideNums=e6edf3&locale=pt_BR" height="170" alt="Sequência de contribuições"/>
-</div>
+<p align="center">
+  <img 
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=guilhermedesales&layout=compact&hide_border=true&bg_color=0d1117&title_color=8b5cf6&text_color=c9d1d9&langs_count=6&locale=pt-br" 
+    height="170"
+  />
+</p>
 
 <br/>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guilhermedesales&layout=compact&hide_border=true&bg_color=0d1117&title_color=8b5cf6&text_color=c9d1d9&langs_count=6&locale=pt-br&cache_seconds=86400" height="170" alt="Linguagens mais usadas"/>
-</div>
-
-<br/>
-
-<!-- Gráfico de atividade de contribuições -->
-<div align="center">
+<p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=guilhermedesales&bg_color=0d1117&color=c9d1d9&line=8b5cf6&point=6366f1&area=true&area_color=8b5cf6&hide_border=true&custom_title=Atividade%20de%20Contribui%C3%A7%C3%B5es"
-    width="95%" alt="Gráfico de atividade de contribuições"/>
-</div>
+    src="https://github-readme-activity-graph.vercel.app/graph?username=guilhermedesales&bg_color=0d1117&color=c9d1d9&line=8b5cf6&point=6366f1&area=true&area_color=8b5cf6&hide_border=true"
+    width="95%"
+  />
+</p>
 
 <br/>
 
