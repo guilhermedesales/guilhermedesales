@@ -172,6 +172,15 @@ Não me considero especialista. Me considero alguém que estuda com consistênci
   <tbody>
     <tr>
       <td>
+        <a href="https://github.com/guilhermedesales/authAPI"><b>Auth API</b></a>
+      </td>
+      <td>
+        API robusta de autenticação e segurança com JWT, verificação em duas etapas via código, recuperação de senha segura, controle de tentativas com bloqueio progressivo e política de histórico de senhas
+      </td>
+      <td><sub>Spring Boot · PostgreSQL · Docker · JWT · SMTP · Security</sub></td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/guilhermedesales/janus-back"><b>Janus</b></a>
         &nbsp;·&nbsp;
         <a href="https://github.com/guilhermedesales/janus-front">front</a>
@@ -186,6 +195,7 @@ Não me considero especialista. Me considero alguém que estuda com consistênci
       <td>Sistema de transporte público do Rio com informações em tempo real de linhas, paradas e rotas</td>
       <td><sub>React Native · .NET 9 · PostgreSQL · Expo</sub></td>
     </tr>
+    
   </tbody>
 </table>
 
